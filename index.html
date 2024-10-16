@@ -12,7 +12,7 @@
 <body>
 <!--Se presenta la estructura con el contenido de nuestra pagina,
  mediante el uso de etiquetas de contenedores (Pueden agrupar otras etiquetas; "Header; Main; Section ") 
- y etiquetas de contenido(Solo posee información)-->
+ y etiquetas de contenido (Solo posee información)-->
     <header> <!--Se define los encabezados de la pagina (titulos; Logotipos; 
                 Barras de busqueda; Barras de navegación) -->
         <h1>Mi Sitio Web</h1><!--Titulo principal-->
@@ -21,11 +21,12 @@
             <ul> <!--Listas no ordenadas; <ol>="listas ordenadas 1,2,3,...,"--> 
                 <li> <a href="www.google.com">GOOGLE</a> </li> <!--"a link"--> 
                 <li>Segundo</li> <!--Cada li es un componente de esa agrupación-->
-               
+
             </ul>
         </nav> 
-        <main> <!--Representa el contenido principal del documento-->
-            <section>
+    </header>
+        <main> <!--Agrupa el contenido principal de la pagina-->
+            <section> <!--Agrupa el contenido similar y permite mejor navegación en la información-->
                 <h2>Sobre nosotros</h2> <!--Titulo 2--> 
                 <p>Texto sobre la empresa</p><!--Escribir parrafos-->
             </section>
@@ -35,7 +36,13 @@
 
             </section>
         </main>
-    </header>
-
+            <h3>Articulos Relacionados</h3>
+            <ul>
+                <li> <a href="#">Artículo 1</a> </li>
+                <li> <a href="#">Artículo 2</a> </li>
+            </ul>
+        <footer>
+            <p>&copy; 2024 Mi sitio Web todos los derechos reserbados</p>
+        </footer>
 </body>
 </html>
